@@ -8,8 +8,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
-
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,8 +16,21 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.fullscreen-video{
+  position: absolute;
+}
+.article{
+  position: absolute;
+  z-index: 2;
+}
 .App-link {
   color: #61dafb;
 }
-
+.Loading-header{
+  min-height: 100vh;
+  background-color:rgb(92, 92, 92);
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
